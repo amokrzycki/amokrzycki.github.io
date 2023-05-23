@@ -26,3 +26,34 @@
     rgba(112, 157, 255, 0.8), hsla(242, 74%, 61%, 0.8)
   ) !important;
 }
+
+.hided {
+  opacity: 0;
+  filter: blur(5px);
+  transform: translateX(-100%);
+  transition: all 1s;
+}
+
+.show {
+  opacity: 1;
+  filter: blur(0);
+  transform: translateX(0);
+}
+
+@media(prefers-reduced-motion) {
+  .hided {
+    transition: none;
+  }
+}
+
+.skill:nth-child(2), .card:nth-child(2), .skill:nth-child(6), .card:nth-child(5)  {
+  transition-delay: 200ms;
+}
+
+.skill:nth-child(3), .card:nth-child(3), .skill:nth-child(7), .card:nth-child(6) {
+  transition-delay: 400ms;
+}
+
+.skill:nth-child(4), .skill:nth-child(8) {
+  transition-delay: 600ms;
+}

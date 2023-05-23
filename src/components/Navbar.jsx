@@ -12,10 +12,10 @@ const Navbar = () => {
   return (
     <div
       id="navbar-wrapper"
-      className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0A192F] text-gray-400"
+      className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0A192F] text-gray-400 z-10"
     >
       <div id="logo-wrapper" className="h-full">
-        <Link to="home" smooth={true} duration={500}>
+        <Link to="home" smooth={true} duration={700}>
           <img
             id="am-logo"
             src={Logo}
