@@ -19,10 +19,12 @@ const About = () => {
           </div>
           <div>
             <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla
-              alias, saepe voluptatem aspernatur eos maxime in voluptatibus
-              repellendus dolorum repudiandae iusto vero praesentium ut numquam?
-              Ratione repellendus quisquam modi unde?
+              I'm a passionate individual, dedicated to becoming a proficient
+              Frontend Developer with a strong focus on React. I find immense
+              joy in crafting captivating web experiences that engage users and
+              deliver seamless interactions. I constantly seek opportunities to
+              apply React's principles and best practices to build efficient and
+              scalable web applications.
             </p>
           </div>
         </div>

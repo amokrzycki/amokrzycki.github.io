@@ -2,6 +2,7 @@ import { FaBars, FaTimes } from "react-icons/fa";
 import { SocialBar } from "./";
 import { useState } from "react";
 import Logo from "../assets/logo.png";
+import { Link } from "react-scroll";
 
 const Navbar = () => {
   const [menuExpanded, setMenuExpanded] = useState(false);
@@ -14,20 +15,42 @@ const Navbar = () => {
       className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0A192F] text-gray-400"
     >
       <div id="logo-wrapper" className="h-full">
-        <img
-          id="am-logo"
-          src={Logo}
-          alt="Logo image"
-          className="h-full p-[10px]"
-        />
+        <Link to="home" smooth={true} duration={500}>
+          <img
+            id="am-logo"
+            src={Logo}
+            alt="Logo image"
+            className="h-full p-[10px] cursor-pointer"
+          />
+        </Link>
       </div>
       <div id="menu-wrapper" className="hidden md:flex">
         <ul className="hidden md:flex">
-          <li>Home</li>
-          <li>About</li>
-          <li>Skills</li>
-          <li>Work</li>
-          <li>Contact</li>
+          <li>
+            <Link to="home" smooth={true} duration={500}>
+              Home
+            </Link>
+          </li>
+          <li>
+            <Link to="about" smooth={true} duration={500}>
+              About
+            </Link>
+          </li>
+          <li>
+            <Link to="skills" smooth={true} duration={500}>
+              Skills
+            </Link>
+          </li>
+          <li>
+            <Link to="work" smooth={true} duration={500}>
+              Work
+            </Link>
+          </li>
+          <li>
+            <Link to="contact" smooth={true} duration={500}>
+              Contact
+            </Link>
+          </li>
         </ul>
       </div>
       <div
@@ -46,11 +69,36 @@ const Navbar = () => {
         }
       >
         <ul>
-          <li className="py-6">Home</li>
-          <li className="py-6">About</li>
-          <li className="py-6">Skills</li>
-          <li className="py-6">Work</li>
-          <li className="py-6">Contact</li>
+          <li className="py-6">
+            <Link onClick={toggleMenu} to="home" smooth={true} duration={500}>
+              Home
+            </Link>
+          </li>
+          <li className="py-6">
+            <Link onClick={toggleMenu} to="about" smooth={true} duration={500}>
+              About
+            </Link>
+          </li>
+          <li className="py-6">
+            <Link onClick={toggleMenu} to="skills" smooth={true} duration={500}>
+              Skills
+            </Link>
+          </li>
+          <li className="py-6">
+            <Link onClick={toggleMenu} to="work" smooth={true} duration={500}>
+              Work
+            </Link>
+          </li>
+          <li className="py-6">
+            <Link
+              onClick={toggleMenu}
+              to="contact"
+              smooth={true}
+              duration={500}
+            >
+              Contact
+            </Link>
+          </li>
         </ul>
       </div>
       <SocialBar />

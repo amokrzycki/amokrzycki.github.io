@@ -1,6 +1,7 @@
 import { HiOutlineMail } from "react-icons/hi";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 import { BsFillPersonLinesFill } from "react-icons/bs";
+import { Link } from "react-scroll";
 
 const SocialBar = () => {
   return (
@@ -32,13 +33,15 @@ const SocialBar = () => {
           </a>
         </li>
         <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-green-600">
-          <a
+          <Link
             className="flex justify-between items-center w-full text-gray-300"
-            href="xdd"
+            to="contact"
+            smooth={true}
+            duration={500}
           >
             <p className="p-1">Mail</p>
             <HiOutlineMail size={30} />
-          </a>
+          </Link>
         </li>
         <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-gray-700">
           <a
