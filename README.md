@@ -20,15 +20,11 @@ This is a portfolio page built using React.js, Tailwind CSS. It showcases my pro
 ## Getting Started
 To run the portfolio page locally, follow these steps:
 
-    1. Clone this repository: `git clone https://github.com/your-username/portfolio.git`
-
-    2. Navigate to the project directory: `cd portfolio`
-
-    3. Install the dependencies: `npm install`
-
-    4. Start the development server: `npm start`
-
-    5. Open your browser and visit `http://localhost:3000` to view the portfolio page.
+   1. Clone this repository: `git clone https://github.com/your-username/portfolio.git`
+   2. Navigate to the project directory: `cd portfolio`
+   3. Install the dependencies: `npm install`
+   4. Start the development server: `npm start`
+   5. Open your browser and visit `http://localhost:3000` to view the portfolio page.
 ## Contributing
 
 If you find any issues or have suggestions for improvement, feel free to open an issue or submit a pull request. Contributions are always welcome!
