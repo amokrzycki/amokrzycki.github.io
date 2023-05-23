@@ -1,5 +1,5 @@
 
-# My porfolio
+# My portfolio
 
 This is a portfolio page built using React.js, Tailwind CSS. It showcases my projects, skills, and provides an overview of my professional journey as a developer.
 
