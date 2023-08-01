@@ -3,7 +3,7 @@ import AdminBoard from "../assets/projects/admin-board.png";
 import OpenAI from "../assets/projects/openai.png";
 import CalculatorApp from "../assets/projects/calculator-app.jpg";
 import Portfolio from "../assets/projects/portfolio.png";
-import Manager from "../assets/projects/manager.png";
+import FormApp from "../assets/projects/multi-form.jpg";
 import { Card } from "./index";
 
 const Work = () => {
@@ -54,9 +54,9 @@ const Work = () => {
           />
           <Card
             className="card hided"
-            bgImage={Manager}
-            title="Project Manager"
-            codeLink="https://github.com/Sajson/project-manager"
+            bgImage={FormApp}
+            title="Multi Step Form + backend"
+            codeLink="https://github.com/Sajson/multi-step-form"
             demoLink=""
           />
           <Card
