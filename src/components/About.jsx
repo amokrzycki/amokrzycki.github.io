@@ -23,11 +23,10 @@ const About = () => {
           </div>
           <div>
             <p>
-              I'm a passionate individual, dedicated to becoming a proficient
-              Frontend Developer with a strong focus on React. I find immense
-              joy in crafting captivating web experiences that engage users and
+              I&apos;m a passionate individual Frontend Developer with a strong focus on React.
+              I find immense joy in crafting captivating web experiences that engage users and
               deliver seamless interactions. I constantly seek opportunities to
-              apply React's principles and best practices to build efficient and
+              apply React&apos;s principles and best practices to build efficient and
               scalable web applications.
             </p>
           </div>

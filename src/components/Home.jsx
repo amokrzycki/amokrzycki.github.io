@@ -9,10 +9,10 @@ const Home = () => {
           Adrian Mokrzycki
         </h1>
         <h2 className="text-4xl sm:text-7xl font-bold text-[#8892B0] hided">
-          I&apos;m learning Frontend Developer
+          I&apos;m Frontend Developer
         </h2>
         <p className="text-[#8892B0] py-4 max-w-[700px] hided">
-          I&apos;m learning frontend developer specializing in building
+          I&apos;m Frontend developer specializing in building
           exceptional digital experiences. Currently, I&apos;m focused on
           building responsive React web applications.
         </p>

@@ -1,9 +1,9 @@
-import WeatherApp from "../assets/projects/weather-app.png";
 import AdminBoard from "../assets/projects/admin-board.png";
 import OpenAI from "../assets/projects/openai.png";
 import CalculatorApp from "../assets/projects/calculator-app.jpg";
 import Portfolio from "../assets/projects/portfolio.png";
 import FormApp from "../assets/projects/multi-form.jpg";
+import PortfelikApp from "../assets/projects/portfelik-app.png";
 import { Card } from "./index";
 
 const Work = () => {
@@ -26,10 +26,10 @@ const Work = () => {
         >
           <Card
             className="card hided"
-            bgImage={WeatherApp}
-            title="Weather App"
-            codeLink="https://github.com/Sajson/weather-app"
-            demoLink="https://sajson.github.io/weather-app/"
+            bgImage={PortfelikApp}
+            title="Portfelik App"
+            codeLink="https://github.com/Sajson/portfelik-app"
+            demoLink="https://sajson.github.io/portfelik-app/"
           />
           <Card
             className="card hided"
@@ -55,9 +55,9 @@ const Work = () => {
           <Card
             className="card hided"
             bgImage={FormApp}
-            title="Multi Step Form + backend"
+            title="Multi Step Form"
             codeLink="https://github.com/Sajson/multi-step-form"
-            demoLink=""
+            demoLink="https://sajson.github.io/multi-step-form"
           />
           <Card
             className="card hided"
