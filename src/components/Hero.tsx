@@ -1,5 +1,5 @@
 import { HERO_CONTENT } from "../constants";
-import { motion, Variants } from "framer-motion";
+import { motion } from "framer-motion";
 
 const container = (delay: number) => ({
   hidden: { x: -100, opacity: 0 },
