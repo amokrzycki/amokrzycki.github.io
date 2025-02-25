@@ -4,4 +4,15 @@
 html, body {
     margin: 0;
     font-family: "Lato", sans-serif;
+    scroll-behavior: smooth;
+}
+
+#main-wrapper::-webkit-scrollbar {
+    display: none;
+}
+
+#main-wrapper {
+    overflow-y: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
 }

@@ -48,7 +48,7 @@ export const PROJECTS = [
     image: "/assets/portfolio.png",
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["React", "TypeScript", "TailwindCSS"],
+    technologies: ["React", "TypeScript", "TailwindCSS", "Motion Framer"],
   },
   {
     title: `Budget Tracker "Portfelik"`,

@@ -14,6 +14,7 @@ function Navbar() {
           href="https://www.linkedin.com/in/amokrzycki/"
           target="_blank"
           rel="noopener noreferrer"
+          aria-label={"LinkedIn"}
         >
           <FaLinkedin />
         </a>
@@ -21,6 +22,7 @@ function Navbar() {
           href="https://github.com/amokrzycki"
           target="_blank"
           rel="noopener noreferrer"
+          aria-label={"Github"}
         >
           <FaGithub />
         </a>
@@ -28,6 +30,7 @@ function Navbar() {
           href="https://amokrzycki.ovh/resume"
           target="_blank"
           rel="noopener noreferrer"
+          aria-label={"Resume"}
         >
           <IoDocumentAttach />
         </a>
