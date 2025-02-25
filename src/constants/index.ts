@@ -42,6 +42,7 @@ export const PROJECTS = [
     description:
       "An application for managing users, monitoring data, and visualizing analytics with real-time updates and controls.",
     technologies: ["React", "JavaScript", "TailwindCSS", "Syncfusion"],
+    hostedLink: "https://amokrzycki.github.io/admin_board/",
   },
   {
     title: "Portfolio Website",
@@ -56,6 +57,7 @@ export const PROJECTS = [
     description:
       "A Budget Tracker app helps users manage income and expenses, track spending, and visualize financial data for better budgeting and savings.",
     technologies: ["React", "TypeScript", "Firebase", "Material UI"],
+    hostedLink: "https://amokrzycki.github.io/portfelik-app/",
   },
 ];
 

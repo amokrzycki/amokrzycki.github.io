@@ -21,12 +21,14 @@ function Projects() {
               transition={{ duration: 1 }}
               className={"w-full lg:w-1/4"}
             >
-              <img
-                src={project.image}
-                width={200}
-                alt={project.title}
-                className={"mb-6 rounded"}
-              />
+              <a href={project.hostedLink} target="_blank" rel="noreferrer">
+                <img
+                  src={project.image}
+                  width={200}
+                  alt={project.title}
+                  className={"mb-6 rounded"}
+                />
+              </a>
             </motion.div>
             <motion.div
               whileInView={{ opacity: 1, x: 0 }}
