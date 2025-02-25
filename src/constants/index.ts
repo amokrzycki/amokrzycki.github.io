@@ -29,6 +29,7 @@ export const PROJECTS = [
       "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
     technologies: [
       "React",
+      "Redux",
       "TailwindCSS",
       "NestJS",
       "TypeORM",
