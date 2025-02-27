@@ -49,7 +49,7 @@ function Technologies() {
         whileInView={{ opacity: 1, x: 0 }}
         initial={{ opacity: 0, x: -100 }}
         transition={{ duration: 1.5 }}
-        className={"flex flex-wrap items-center justify-center gap-4"}
+        className={"flex flex-wrap items-center justify-center lg:gap-4 gap-6"}
       >
         {technologies.map((tech) => (
           <motion.div
@@ -64,9 +64,13 @@ function Technologies() {
               repeatType: "reverse",
             }}
             key={tech.id}
-            className={"rounded-2xl border-4 border-neutral-800 p-4 text-7xl"}
           >
-            {tech.icon}
+            <div
+              className={"rounded-2xl border-4 border-neutral-800 p-4 text-7xl"}
+            >
+              {tech.icon}
+            </div>
+            <p className={"text-center text-neutral-400 mt-4"}>{tech.id}</p>
           </motion.div>
         ))}
       </motion.div>
