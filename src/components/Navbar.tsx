@@ -1,5 +1,4 @@
 import { FaGithub, FaLinkedin } from "react-icons/fa6";
-import { IoDocumentAttach } from "react-icons/io5";
 
 function Navbar() {
   return (
@@ -25,14 +24,6 @@ function Navbar() {
           aria-label={"Github"}
         >
           <FaGithub />
-        </a>
-        <a
-          href="https://amokrzycki.ovh/resume"
-          target="_blank"
-          rel="noopener noreferrer"
-          aria-label={"Resume"}
-        >
-          <IoDocumentAttach />
         </a>
       </div>
     </nav>

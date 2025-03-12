@@ -60,7 +60,7 @@ function Hero() {
                 window.open("https://amokrzycki.ovh/resume", "_blank")
               }
             >
-              My Resume
+              Let's Work Together
             </motion.button>
           </div>
         </div>
@@ -70,7 +70,7 @@ function Hero() {
               initial={{ x: 100, opacity: 0 }}
               animate={{ x: 0, opacity: 1 }}
               transition={{ duration: 1, delay: 1.2 }}
-              src={"/assets/profile.jpg"}
+              src={"/assets/profile.webp"}
               alt={"Adrian Mokrzycki"}
               className={"rounded-2xl"}
             />

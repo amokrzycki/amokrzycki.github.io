@@ -2,8 +2,6 @@ import { Experience } from "../types/Experience.ts";
 
 export const HERO_CONTENT = `I am a motivated and detail-oriented JavaScript Developer with almost 4 years of experience in building personal/commercial projects using React, TypeScript, Redux, and Node.js. Throughout my career, I have contributed to key projects such as developing internal tools that significantly streamlined workflows — most notably, a Chrome extension that accelerated ad testing processes by nearly 50%. My responsibilities have included implementing scalable front-end solutions, maintaining and evolving advertising platforms, and building back-office features in close collaboration with cross-functional teams. I take pride in writing clean, maintainable code and ensuring seamless user experiences through responsive design and performance optimization. In my daily work, I follow Agile methodologies (Scrum), and I adapt quickly to new challenges and technologies, always eager to grow and bring tangible value to the product and team.`;
 
-export const ABOUT_TEXT = `I am a passionate and detail-oriented JavaScript Developer with a strong focus on building modern, high-performance web applications. Specializing in React, TypeScript, and Redux, I enjoy creating intuitive and scalable user interfaces that enhance digital experiences. My journey in web development started with a curiosity for technology, which has since evolved into a career where I continuously refine my skills by working on real-world projects. From optimizing ad platforms to developing tools that streamline workflows, I thrive on solving complex problems and delivering impactful solutions. Currently pursuing a degree in Information Technology, I am committed to learning and staying up-to-date with the latest advancements in the field. Beyond coding, I enjoy exploring new technologies, collaborating on innovative projects, and pushing the boundaries of what's possible in web development.`;
-
 export const EXPERIENCES: Experience[] = [
   {
     year: "Jan 2023 - Present",
@@ -52,7 +50,7 @@ export const EXPERIENCES: Experience[] = [
 export const PROJECTS = [
   {
     title: `E-commerce Platform "Zielony Koszyk" ("Green Basket")`,
-    image: "/assets/zielony-koszyk.png",
+    image: "/assets/zielony-koszyk.webp",
     description:
       "A full-stack web application developed as part of my engineering thesis, focused on browsing, ordering, and managing fruit and vegetable deliveries",
     technologies: [
@@ -67,7 +65,7 @@ export const PROJECTS = [
   },
   {
     title: "Admin dashboard",
-    image: "/assets/admin-board.png",
+    image: "/assets/admin-board.webp",
     description:
       "An application for managing users, monitoring data, and visualizing analytics with real-time updates and controls.",
     technologies: ["React", "JavaScript", "TailwindCSS", "Syncfusion"],
@@ -75,14 +73,14 @@ export const PROJECTS = [
   },
   {
     title: "Portfolio Website",
-    image: "/assets/portfolio-new.png",
+    image: "/assets/portfolio.webp",
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
     technologies: ["React", "TypeScript", "TailwindCSS", "Motion Framer"],
   },
   {
     title: `Budget Tracker "Portfelik" ("Wallet")`,
-    image: "/assets/portfelik.png",
+    image: "/assets/portfelik.webp",
     description:
       "A Budget Tracker app helps users manage income and expenses, track spending, and visualize financial data for better budgeting and savings.",
     technologies: ["React", "TypeScript", "Firebase", "Material UI"],
