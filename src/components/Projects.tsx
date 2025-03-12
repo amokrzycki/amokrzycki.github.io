@@ -19,12 +19,11 @@ function Projects() {
               whileInView={{ opacity: 1, x: 0 }}
               initial={{ opacity: 0, x: -100 }}
               transition={{ duration: 1 }}
-              className={"w-full lg:w-1/4"}
+              className={"w-full lg:w-1/2"}
             >
               <a href={project.hostedLink} target="_blank" rel="noreferrer">
                 <img
                   src={project.image}
-                  width={200}
                   alt={project.title}
                   className={"mb-6 rounded sm:w-1/2"}
                 />

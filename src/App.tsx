@@ -1,7 +1,6 @@
 import "./App.css";
 import Navbar from "./components/Navbar.tsx";
 import Hero from "./components/Hero.tsx";
-import About from "./components/About.tsx";
 import Technologies from "./components/Technologies.tsx";
 import Experience from "./components/Experience.tsx";
 import Projects from "./components/Projects.tsx";
@@ -16,9 +15,8 @@ function App() {
       <div className={"container mx-auto px-8"}>
         <Navbar />
         <Hero />
-        <About />
-        <Technologies />
         <Experience />
+        <Technologies />
         <Projects />
         <Contact />
       </div>

@@ -37,7 +37,7 @@ function Hero() {
                 "bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-3xl tracking-tight text-transparent"
               }
             >
-              Frontend Developer
+              JavaScript Developer
             </motion.span>
             <motion.p
               variants={container(0)}
@@ -47,6 +47,21 @@ function Hero() {
             >
               {HERO_CONTENT}
             </motion.p>
+            <motion.button
+              variants={container(0)}
+              initial="hidden"
+              animate="visible"
+              className={
+                "bg-gradient-to-r from-pink-300 to-purple-500 text-white px-6 py-2 rounded-lg cursor-pointer mb-8"
+              }
+              rel="noopener noreferrer"
+              aria-label={"Resume"}
+              onClick={() =>
+                window.open("https://amokrzycki.ovh/resume", "_blank")
+              }
+            >
+              Let's Work Together
+            </motion.button>
           </div>
         </div>
         <div className={"w-full lg:w-1/2 lg:p-8"}>
@@ -55,7 +70,7 @@ function Hero() {
               initial={{ x: 100, opacity: 0 }}
               animate={{ x: 0, opacity: 1 }}
               transition={{ duration: 1, delay: 1.2 }}
-              src={"/assets/profile.jpg"}
+              src={"/assets/profile.webp"}
               alt={"Adrian Mokrzycki"}
               className={"rounded-2xl"}
             />
