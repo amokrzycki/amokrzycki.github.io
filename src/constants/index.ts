@@ -36,6 +36,13 @@ export const EXPERIENCES: Experience[] = [
     technologies: ["JavaScript", "QA Engineering", "Git"],
   },
   {
+    year: "2025 - present (expected 2026)",
+    role: "Master’s Degree in Computer Science",
+    company: "University of Information Technology and Management in Rzeszow",
+    description: ["Faculty of Cybersecurity."],
+    technologies: [],
+  },
+  {
     year: "2021 - 2025",
     role: "Engineer’s Degree in Computer Science",
     company: "University of Information Technology and Management in Rzeszow",
